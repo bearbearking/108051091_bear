@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 8033 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58085
+Successfully changed project path to: C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project
+C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   25.21.14.1777
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002199 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1837ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (372ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 3.145700 ms (FindLiveObjects: 0.192400 ms CreateObjectMapping: 0.067400 ms MarkObjects: 2.823600 ms  DeleteObjects: 0.061800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab
+  artifactKey: Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab using Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc7038e649eb32b315f9e1305cad849') in 0.094004 seconds 
+  Import took 0.097748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.573958 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f99e5e8f67638d1e2ec8abc4512e30') in 0.052679 seconds 
+  Import took 0.056432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.049124 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783185666b7cda8cf51f8a293a66d407') in 0.052027 seconds 
+  Import took 0.056410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.206142 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31826202e7b5aa0843250c3937dd886') in 0.047310 seconds 
+  Import took 0.051339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.545979 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d498bf61eddcb83cf5f5bf8b59be0f0') in 0.014908 seconds 
+  Import took 0.018314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.836145 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b0b2347d606de20199f2b0c9ee84e') in 0.049730 seconds 
+  Import took 0.054354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.235643 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a90605f3751ac7e2a31d3432aec725') in 0.046496 seconds 
+  Import took 0.050347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.650738 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare.asset
+  artifactKey: Guid(7fb54367bd9cd0d4ab48b8aa3ed02c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare.asset using Guid(7fb54367bd9cd0d4ab48b8aa3ed02c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a2405ed7d8833ec5ace7420a4dab34') in 0.007578 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_7.asset
+  artifactKey: Guid(6171f6c3a0c34e24092dea1179776cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_7.asset using Guid(6171f6c3a0c34e24092dea1179776cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c711696422bc4b38c3265ecee6a3b412') in 0.027449 seconds 
+  Import took 0.032146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_8.asset
+  artifactKey: Guid(90fe62f9be0b03f4f94f09079c8ceac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_8.asset using Guid(90fe62f9be0b03f4f94f09079c8ceac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57e3aea68057a0e5bdeeffadaccf88a') in 0.023165 seconds 
+  Import took 0.028522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_6.asset
+  artifactKey: Guid(9f479c9f0a094df4a89646744f337031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_6.asset using Guid(9f479c9f0a094df4a89646744f337031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c2286b1b1c74ff6f84163bd5bd813d') in 0.014921 seconds 
+  Import took 0.018447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_2.asset
+  artifactKey: Guid(41b29ed9633a7ad43b3a4b0c01117c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_2.asset using Guid(41b29ed9633a7ad43b3a4b0c01117c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544fc2627841414e09a6b38d626e56cd') in 0.015714 seconds 
+  Import took 0.020083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_2.asset
+  artifactKey: Guid(eb6a04591d4498d4a8ed4e2d605930ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_2.asset using Guid(eb6a04591d4498d4a8ed4e2d605930ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f3f06ec612e1f99eabfda0a0d551ab') in 0.023019 seconds 
+  Import took 0.026525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_3.asset
+  artifactKey: Guid(7433b05befcb7c945b969ff462a01dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_3.asset using Guid(7433b05befcb7c945b969ff462a01dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48e6ef6627dd101139fbc9e13d94f60') in 0.014683 seconds 
+  Import took 0.019659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_4.asset
+  artifactKey: Guid(a8aa6bd88a7ff4c4e97d953504f1338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_4.asset using Guid(a8aa6bd88a7ff4c4e97d953504f1338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfec7e2d3234091fd543d2a64afce0b1') in 0.012860 seconds 
+  Import took 0.018027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_0.asset
+  artifactKey: Guid(56efe840793c3ca40bbb752c73030220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_0.asset using Guid(56efe840793c3ca40bbb752c73030220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd179d82fd53e8ccf19d649e2453b36e5') in 0.019688 seconds 
+  Import took 0.023012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_6.asset
+  artifactKey: Guid(a3afc13d5a0fa36489ee53be165c0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_6.asset using Guid(a3afc13d5a0fa36489ee53be165c0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b980fec5b15fd6bbdc290835c11cad8') in 0.011950 seconds 
+  Import took 0.017304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab
+  artifactKey: Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab using Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ad88f23f099ef8e34623c1447f1fdd') in 0.021285 seconds 
+  Import took 0.025413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_8.asset
+  artifactKey: Guid(0fba12d0192e05944babf9c456c6e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_8.asset using Guid(0fba12d0192e05944babf9c456c6e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a9c2a10b9d1e3165c6017df84996c0') in 0.015095 seconds 
+  Import took 0.018890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner.asset
+  artifactKey: Guid(a207f9dbd8d88314b9ba6bef8d921095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner.asset using Guid(a207f9dbd8d88314b9ba6bef8d921095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29d092547f0328000d5815d37d4f502') in 0.005424 seconds 
+  Import took 0.010751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_3.asset
+  artifactKey: Guid(9c68af4660f3ce04d9d894ebe61bd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_3.asset using Guid(9c68af4660f3ce04d9d894ebe61bd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f6a191b43f78306450604e0cf5b6f4') in 0.025295 seconds 
+  Import took 0.028513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_7.asset
+  artifactKey: Guid(8bd1c49cf062b4e4f93e187ff70d4aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_7.asset using Guid(8bd1c49cf062b4e4f93e187ff70d4aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a91970d1f420f5ede7121679e84a11b') in 0.011795 seconds 
+  Import took 0.017698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_0.asset
+  artifactKey: Guid(0b0da0f9e0c265e42b91eaa73199a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_0.asset using Guid(0b0da0f9e0c265e42b91eaa73199a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ff7f78aba5e0b7891fe367dec12666') in 0.019757 seconds 
+  Import took 0.024614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_1.asset
+  artifactKey: Guid(79f191e512cc6d44791f48c9925e5aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_1.asset using Guid(79f191e512cc6d44791f48c9925e5aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6ffd5468dd942b4e1f49402a1f80a8') in 0.022672 seconds 
+  Import took 0.026414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_4.asset
+  artifactKey: Guid(c69dd996fd0ec0e4ead174b33eb6a2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_4.asset using Guid(c69dd996fd0ec0e4ead174b33eb6a2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef584bd0c1e352c431dfba0a6d91869a') in 0.024085 seconds 
+  Import took 0.027403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_5.asset
+  artifactKey: Guid(d7f59dd7dcf3d95499ac82cacc9cbe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorBricksToGrassSquare_5.asset using Guid(d7f59dd7dcf3d95499ac82cacc9cbe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad7485ccf5bfb68d342840e3b49d72b') in 0.016014 seconds 
+  Import took 0.022713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_5.asset
+  artifactKey: Guid(3b82f7e947a8e034483435cdeba6ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_5.asset using Guid(3b82f7e947a8e034483435cdeba6ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c443f30ba74f8f54d985bc64101ea35') in 0.014078 seconds 
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_1.asset
+  artifactKey: Guid(13ce3a2ff56da184986fd781494d1eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksCorner_1.asset using Guid(13ce3a2ff56da184986fd781494d1eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a43df83bce96e5fc09aab1068893908') in 0.017126 seconds 
+  Import took 0.023423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.728470 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a063f6a65e54d9ff557aff07f741d46') in 0.016040 seconds 
+  Import took 0.020860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.672449 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7014a408fc4be1784734b74fdd9acde') in 0.050559 seconds 
+  Import took 0.054623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.045686 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe5abc3d34ff224ba2e488728f8b03c') in 0.058322 seconds 
+  Import took 0.062489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.724129 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57baee0a78fd1a9a1434732c63037b80') in 0.016851 seconds 
+  Import took 0.023138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.347264 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad1f915c8cac127dd36149233d46393') in 0.048193 seconds 
+  Import took 0.052346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.203075 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fa7f12a1f5045899225c9bc98fe1de') in 0.062741 seconds 
+  Import took 0.066791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.574135 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bdf800aab5e3e9b4340cfd8a9bd8d6') in 0.016019 seconds 
+  Import took 0.020221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.558974 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fef9bded781634de19a524f3f1ceb4b') in 0.045001 seconds 
+  Import took 0.048672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.756685 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced7ba003770a3a0d6be3cab8a3091c0') in 0.055893 seconds 
+  Import took 0.059303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.670018 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/JambiSheet.png
+  artifactKey: Guid(255841382d607e24a8317d9ab167f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/JambiSheet.png using Guid(255841382d607e24a8317d9ab167f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cd0f81c2b10ad7aaac8e4bc2181014') in 0.033771 seconds 
+  Import took 0.037592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png
+  artifactKey: Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png using Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551fd38a060bc8fd8024bee56b9e3b1e') in 0.120427 seconds 
+  Import took 0.123304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/MrClockworkSheet.png
+  artifactKey: Guid(651c4abeb0812e74685da0e5a31c8dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/MrClockworkSheet.png using Guid(651c4abeb0812e74685da0e5a31c8dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78edbdb5c1578b53e4027b84f87e1339') in 0.102889 seconds 
+  Import took 0.105804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.132427 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare.asset
+  artifactKey: Guid(de54fbe27bcfad342a9e21a0a43a38ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare.asset using Guid(de54fbe27bcfad342a9e21a0a43a38ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49492902fad2cc9fc3df4d00bec30393') in 0.004456 seconds 
+  Import took 0.007641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_1.asset
+  artifactKey: Guid(d89149ebf292bbe4ea5c17d7f8f123d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_1.asset using Guid(d89149ebf292bbe4ea5c17d7f8f123d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114fc2c3af5cb14df5db6ec73796f5c5') in 0.017729 seconds 
+  Import took 0.021623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000832 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_2.asset
+  artifactKey: Guid(32b2fd9d9ef43b8419009231496f1ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_2.asset using Guid(32b2fd9d9ef43b8419009231496f1ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf4dcf799927e50313b706383031f25') in 0.011763 seconds 
+  Import took 0.015107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_5.asset
+  artifactKey: Guid(02e3317cb9ac14d4682e579fca548ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_5.asset using Guid(02e3317cb9ac14d4682e579fca548ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf4d78db5b3b47130875ae74bf300a2') in 0.016655 seconds 
+  Import took 0.021069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_2.asset
+  artifactKey: Guid(5f653e35740cd50419a24c1f3d10c74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_2.asset using Guid(5f653e35740cd50419a24c1f3d10c74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393f055d99375322fa06626b2378a28c') in 0.012833 seconds 
+  Import took 0.016614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_4.asset
+  artifactKey: Guid(cfd3b372024c9e04d9629825a68d4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_4.asset using Guid(cfd3b372024c9e04d9629825a68d4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19a721d26ac48d4b8d250ff8eb75b4b') in 0.015748 seconds 
+  Import took 0.019994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_5.asset
+  artifactKey: Guid(e7aabea68e0b1914e90ddbbf19a5372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_5.asset using Guid(e7aabea68e0b1914e90ddbbf19a5372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666d6857bcdc324fd1ac0798b7ed0afe') in 0.014977 seconds 
+  Import took 0.019661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_7.asset
+  artifactKey: Guid(5cb8019e1916a684ea3687d90d80abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_7.asset using Guid(5cb8019e1916a684ea3687d90d80abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf05dc5cd1da041bf613104511e44cf3') in 0.014736 seconds 
+  Import took 0.019597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_3.asset
+  artifactKey: Guid(9c2aa3e730e68614bb92e4605a3324a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_3.asset using Guid(9c2aa3e730e68614bb92e4605a3324a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab44a941f8f982ea08e21f53386d6be') in 0.023474 seconds 
+  Import took 0.026824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_6.asset
+  artifactKey: Guid(08c80dc50e9912b41998b4a2465c907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_6.asset using Guid(08c80dc50e9912b41998b4a2465c907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a382d4fd0bd2776e718e6a99dfa8c033') in 0.015784 seconds 
+  Import took 0.019661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_3.asset
+  artifactKey: Guid(aa6ce4324591a75478810d1a744bcf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_3.asset using Guid(aa6ce4324591a75478810d1a744bcf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca910a2e1efad4cc3e2eb75501d6369') in 0.014795 seconds 
+  Import took 0.018345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_2.asset
+  artifactKey: Guid(5771621a581d5d6489736e5464a14585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_2.asset using Guid(5771621a581d5d6489736e5464a14585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04256904e359302bc153c2da720216af') in 0.015238 seconds 
+  Import took 0.019218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_4.asset
+  artifactKey: Guid(b7233d588b0283045ab77f9243aead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_4.asset using Guid(b7233d588b0283045ab77f9243aead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d98c8162f1d8832951201dfc570f005') in 0.013839 seconds 
+  Import took 0.017320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_1.asset
+  artifactKey: Guid(6efce285730b76d4c8e071681d2780ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_1.asset using Guid(6efce285730b76d4c8e071681d2780ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f630ceba59cebe43c8157cc9573c9d29') in 0.022732 seconds 
+  Import took 0.027308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_5.asset
+  artifactKey: Guid(923ab31c9066a4a42bf60e53d238d6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_5.asset using Guid(923ab31c9066a4a42bf60e53d238d6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf37a417f669ffe5c89f2b7aec49439c') in 0.012422 seconds 
+  Import took 0.016143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_8.asset
+  artifactKey: Guid(e3810bb7a4436a34ca926ecd2d3d9879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_8.asset using Guid(e3810bb7a4436a34ca926ecd2d3d9879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56f8e978b7f6c426aa3e8993d15427e') in 0.017140 seconds 
+  Import took 0.022196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_8.asset
+  artifactKey: Guid(d91232809726767408df7fa844a2d726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_8.asset using Guid(d91232809726767408df7fa844a2d726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f362e3e1f84d030309a402ae4363497') in 0.013953 seconds 
+  Import took 0.017402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_7.asset
+  artifactKey: Guid(8e40cfebb21aa6e45a5362876df08c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_7.asset using Guid(8e40cfebb21aa6e45a5362876df08c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8985e6090194ac77b715fa05d74711') in 0.013882 seconds 
+  Import took 0.018781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_6.asset
+  artifactKey: Guid(a54e94807889cf8489968b4c8339f05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_6.asset using Guid(a54e94807889cf8489968b4c8339f05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee8923eaba41634f640122baf4290ca') in 0.024359 seconds 
+  Import took 0.027458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab
+  artifactKey: Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab using Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e90638537325729fa21e4ee02c72fa') in 0.033315 seconds 
+  Import took 0.037414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_3.asset
+  artifactKey: Guid(408a33a1f6d39764eb06701a2e99bea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_3.asset using Guid(408a33a1f6d39764eb06701a2e99bea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ccbbb34f9443084f5a932ca4465645') in 0.016119 seconds 
+  Import took 0.020410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_4.asset
+  artifactKey: Guid(39a78e5be989034448de62dbb3745311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_4.asset using Guid(39a78e5be989034448de62dbb3745311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bab522aa059747cecf4a35984055bc8') in 0.012655 seconds 
+  Import took 0.016653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_0.asset
+  artifactKey: Guid(5720271cb5d1f3c40920f711b61f3916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_0.asset using Guid(5720271cb5d1f3c40920f711b61f3916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dcad1fce223a1e7787cc69c52b6d53') in 0.019192 seconds 
+  Import took 0.024069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners.asset
+  artifactKey: Guid(a72ac0cce2ddea34db79ecba94c6bbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners.asset using Guid(a72ac0cce2ddea34db79ecba94c6bbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824d0b8d50fefbed8ad029cbeac06310') in 0.004171 seconds 
+  Import took 0.008010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_0.asset
+  artifactKey: Guid(b28b4a77ea0311143b8bec8794b1b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_0.asset using Guid(b28b4a77ea0311143b8bec8794b1b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5737637bbfa421cce7f7a2d1c068b277') in 0.026585 seconds 
+  Import took 0.029889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_7.asset
+  artifactKey: Guid(f27b9ce9deb8e3148aec188a1a8f1c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterRoundCorners_7.asset using Guid(f27b9ce9deb8e3148aec188a1a8f1c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87aeced23cf86c25070892034e37d07b') in 0.018895 seconds 
+  Import took 0.023859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_0.asset
+  artifactKey: Guid(d4a78b8a6b0cbc143bc3677fd23ea6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_0.asset using Guid(d4a78b8a6b0cbc143bc3677fd23ea6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca61f4b3851ea735e584f40f0e90476f') in 0.013014 seconds 
+  Import took 0.016569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_1.asset
+  artifactKey: Guid(7685ad29f575f8b4dbd88b17fba72cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_1.asset using Guid(7685ad29f575f8b4dbd88b17fba72cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ea4e1cf64d926262924e20e33da896') in 0.015908 seconds 
+  Import took 0.021640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners.asset
+  artifactKey: Guid(1afdeeced7fabf1489669d10e73cb765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners.asset using Guid(1afdeeced7fabf1489669d10e73cb765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbae2e08244c73e17195b995e5b9c19') in 0.005430 seconds 
+  Import took 0.010139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_8.asset
+  artifactKey: Guid(3493fd15928ecf044894a0280a3050f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorGrassToBricksSquare_8.asset using Guid(3493fd15928ecf044894a0280a3050f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bee5de39c83826f8f87dfd7ae116a4') in 0.018877 seconds 
+  Import took 0.022380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_6.asset
+  artifactKey: Guid(e8008a5e01466b141ad278a0acf0f781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_6.asset using Guid(e8008a5e01466b141ad278a0acf0f781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5b604007f010d20635ad008e5d6fc0') in 0.013539 seconds 
+  Import took 0.018087 seconds .
+

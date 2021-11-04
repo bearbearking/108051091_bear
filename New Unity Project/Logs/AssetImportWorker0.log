@@ -699,3 +699,4 @@ Received Import Request.
 Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/FloorWaterSquareCorners_6.asset using Guid(e8008a5e01466b141ad278a0acf0f781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5b604007f010d20635ad008e5d6fc0') in 0.013539 seconds 
   Import took 0.018087 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

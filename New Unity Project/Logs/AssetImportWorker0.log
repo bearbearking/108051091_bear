@@ -15,11 +15,11 @@ C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61990
+62140
 Successfully changed project path to: C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project
 C:/Users/謝佳蓉/Documents/GitHub/108051091_bear/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005008 seconds.
+Registered in 0.003025 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.403 seconds
+- Completed reload, in  5.738 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4403ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (5739ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (381ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (151ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009479 seconds.
+Registered in 0.004352 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.424 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1173ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (978ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (318ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (506ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.1 MB.
 System memory in use after: 93.2 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2530.
-Total: 2.825600 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.505300 ms  DeleteObjects: 0.060000 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 6.025500 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.144500 ms MarkObjects: 5.470600 ms  DeleteObjects: 0.107800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,530 +134,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2Dpackage/RubyRunDown4.asset
-  artifactKey: Guid(75665acc70a149d428c1e18d2100242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunDown4.asset using Guid(75665acc70a149d428c1e18d2100242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512ff834211aa3105d0888588c192c10') in 0.097454 seconds 
-  Import took 0.100338 seconds .
+  path: Assets/2Dpackage/scripts/RubyMove.cs
+  artifactKey: Guid(85e3214e266f4744ebe88d1026c21ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/scripts/RubyMove.cs using Guid(85e3214e266f4744ebe88d1026c21ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021bf95b7a60d4f31233010ad7c401f9') in 0.037394 seconds 
+  Import took 0.041299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/2Dpackage/RubyHitdown.asset
-  artifactKey: Guid(9e6e6ebb09a9c3743b244466af5a1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyHitdown.asset using Guid(9e6e6ebb09a9c3743b244466af5a1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2c8725cf32c85be687e6c84c9afdcc') in 0.023109 seconds 
-  Import took 0.026882 seconds .
+  Time since last request: 13.555453 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips
+  artifactKey: Guid(2dceb00d54b369d4889d2daf5a884a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips using Guid(2dceb00d54b369d4889d2daf5a884a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f31c09148e766f780e1d71e3f9b5b4') in 0.017768 seconds 
+  Import took 0.024365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2Dpackage/RubyIdleUp1.asset
-  artifactKey: Guid(427b263ca2af0af4e82bb5ef96991ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyIdleUp1.asset using Guid(427b263ca2af0af4e82bb5ef96991ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491c03f67b81fc8c2336fc0ac4b2824d') in 0.024844 seconds 
-  Import took 0.028565 seconds .
+  Time since last request: 0.654568 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips/Player
+  artifactKey: Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips/Player using Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a955fd25213020ddc586c92ae09676f9') in 0.010681 seconds 
+  Import took 0.014689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/2Dpackage/RubyRunDown1.asset
-  artifactKey: Guid(652b3c2b2c577e340b4ad02a9bc7e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunDown1.asset using Guid(652b3c2b2c577e340b4ad02a9bc7e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddcea2645992cd40360883e35658ad7') in 0.018469 seconds 
-  Import took 0.022722 seconds .
+  Time since last request: 0.001605 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips/Player
+  artifactKey: Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips/Player using Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a955fd25213020ddc586c92ae09676f9') in 0.003739 seconds 
+  Import took 0.010558 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/2Dpackage/RubyRunSide3.asset
-  artifactKey: Guid(f5dd62061102ead4e90a47cd94b23bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunSide3.asset using Guid(f5dd62061102ead4e90a47cd94b23bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa377c913a76d19f268a16c7eb8454e') in 0.021712 seconds 
-  Import took 0.027036 seconds .
+  Time since last request: 65.954128 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_0 1.asset
+  artifactKey: Guid(0d8d571782067fd41a06d7c0ab90deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_0 1.asset using Guid(0d8d571782067fd41a06d7c0ab90deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a57322fff070110834b146b27a9de2') in 0.113424 seconds 
+  Import took 0.117727 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/2Dpackage/RubyHitSides.asset
-  artifactKey: Guid(41c469c67e6cb3c4087b6014d65d7ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyHitSides.asset using Guid(41c469c67e6cb3c4087b6014d65d7ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfc2c3105def2aff458ef3ec5454572') in 0.021862 seconds 
-  Import took 0.026121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/2Dpackage/RubyIdleDown1.asset
-  artifactKey: Guid(7c75691594ba1db479756f1bd857ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyIdleDown1.asset using Guid(7c75691594ba1db479756f1bd857ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6129e5aec3edf0d9e4958524c2e09d03') in 0.017861 seconds 
-  Import took 0.023154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/2Dpackage/RubyLaunchUp.asset
-  artifactKey: Guid(3d61fb56539d85643982668fb5fc371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyLaunchUp.asset using Guid(3d61fb56539d85643982668fb5fc371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1e378831e934d3c61c4ae22e37e00f') in 0.019703 seconds 
-  Import took 0.023657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/2Dpackage/RubyRunUp2.asset
-  artifactKey: Guid(28192614ffaa30349b90689864cc58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunUp2.asset using Guid(28192614ffaa30349b90689864cc58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2c12573caea091d02742339edbaa93') in 0.019331 seconds 
-  Import took 0.024116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/2Dpackage/RubyIdleSide1.asset
-  artifactKey: Guid(541b933babac08c42828ceac43ff7691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyIdleSide1.asset using Guid(541b933babac08c42828ceac43ff7691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708f1f3719e5f7b9a5300b7026e5ddf3') in 0.020283 seconds 
-  Import took 0.024578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/2Dpackage/RubyLauchSides.asset
-  artifactKey: Guid(fbae48551b5d4d7468a29177b9da5919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyLauchSides.asset using Guid(fbae48551b5d4d7468a29177b9da5919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf37441888a78c326c470afe84f9465') in 0.020153 seconds 
-  Import took 0.025204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2Dpackage/RubyRunSide1.asset
-  artifactKey: Guid(9e98dfbf7c9ad1847952730926314add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunSide1.asset using Guid(9e98dfbf7c9ad1847952730926314add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320c90d20d27ef59a3504df3bb17a250') in 0.024064 seconds 
-  Import took 0.027773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2Dpackage/RubyRunUp3.asset
-  artifactKey: Guid(6b0b5fadaa8a25a48936ebf552706cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunUp3.asset using Guid(6b0b5fadaa8a25a48936ebf552706cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234ca807d50e31c071748b1a82380fd4') in 0.020837 seconds 
-  Import took 0.025321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/2Dpackage/RubyRunSide2.asset
-  artifactKey: Guid(e7ef30e5c7b872242a6c60fc3b9db32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunSide2.asset using Guid(e7ef30e5c7b872242a6c60fc3b9db32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77962917d6aa6f2fca34572dab0e78d') in 0.020323 seconds 
-  Import took 0.024141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2Dpackage/RubyRunSide4.asset
-  artifactKey: Guid(da55576b4cdc61f4b95867cae8403844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunSide4.asset using Guid(da55576b4cdc61f4b95867cae8403844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b227f9b509e5f4c210d5baa3d12fa') in 0.018255 seconds 
-  Import took 0.023724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/2Dpackage/RubyIdleDown2.asset
-  artifactKey: Guid(660d1b4a072bed04aa757cfd85593a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyIdleDown2.asset using Guid(660d1b4a072bed04aa757cfd85593a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a964cc26c3cec39abed6d731d76e8284') in 0.021020 seconds 
-  Import took 0.024977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2Dpackage/RubyIdleUp2.asset
-  artifactKey: Guid(0e19d83f6cb428348bf1501990117cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyIdleUp2.asset using Guid(0e19d83f6cb428348bf1501990117cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e59c80f3bb99c2c95954c88f1d417d6') in 0.020810 seconds 
-  Import took 0.025897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/2Dpackage/RubyIdleSides2.asset
-  artifactKey: Guid(36ee3a0e589fdc241a0faa3a6b71129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyIdleSides2.asset using Guid(36ee3a0e589fdc241a0faa3a6b71129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e8dae03df77d44e1dc51d3fc47ff7c') in 0.020841 seconds 
-  Import took 0.025982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/2Dpackage/RubyRunDown2.asset
-  artifactKey: Guid(06f1201051132fa4986e2d3921841ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunDown2.asset using Guid(06f1201051132fa4986e2d3921841ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495975b30a06e7194ba4fe0de875217e') in 0.020095 seconds 
-  Import took 0.023586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/2Dpackage/RubyLaunchDown.asset
-  artifactKey: Guid(73c83dc7b336be640b0d642e6c84dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyLaunchDown.asset using Guid(73c83dc7b336be640b0d642e6c84dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eed7c565a9bda63cbfa5cf6b7f37a2') in 0.020395 seconds 
-  Import took 0.025160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2Dpackage/RubyRunUp1.asset
-  artifactKey: Guid(eaaacab7ac111754abb04f83aa9f8cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunUp1.asset using Guid(eaaacab7ac111754abb04f83aa9f8cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746d9bc524bf5b191040fc830cbf75f6') in 0.021353 seconds 
-  Import took 0.025742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/2Dpackage/RubyHitUp.asset
-  artifactKey: Guid(8d9e933132c239440bbc6f28f9949223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyHitUp.asset using Guid(8d9e933132c239440bbc6f28f9949223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a693366c3f56fb6e43342549a133d6') in 0.025942 seconds 
-  Import took 0.030329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/2Dpackage/RubyRunDown3.asset
-  artifactKey: Guid(416fbc8294fe7ca4b9efc56e620c7160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunDown3.asset using Guid(416fbc8294fe7ca4b9efc56e620c7160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f8ba2b38961114ceac85abfb1fa49d') in 0.020793 seconds 
-  Import took 0.025468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/2Dpackage/RubyRunUp4.asset
-  artifactKey: Guid(9f64e3720405c3b4f8d146da64451b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/RubyRunUp4.asset using Guid(9f64e3720405c3b4f8d146da64451b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e156867fd2efe04fef0cd81e234d5c41') in 0.021258 seconds 
-  Import took 0.025717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.193262 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png
-  artifactKey: Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png using Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d604e6a2d09aa7fc380ad0cd2b5d0ec') in 0.118563 seconds 
-  Import took 0.122640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.321598 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png
-  artifactKey: Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png using Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e282c01940f726cf8135d313762530c') in 0.113566 seconds 
-  Import took 0.117476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.288057 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_0.asset
-  artifactKey: Guid(f26922aca6a55a2408e716ca711065e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_0.asset using Guid(f26922aca6a55a2408e716ca711065e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2e7184ab7f3339a2cac1af82d4a3d9') in 0.018506 seconds 
-  Import took 0.021892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_14.asset
-  artifactKey: Guid(d681f99980aed1c4b949c9ce5f823e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_14.asset using Guid(d681f99980aed1c4b949c9ce5f823e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c60d980830c17f8d5da303a07f169c') in 0.035561 seconds 
-  Import took 0.041758 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_7 1.asset
+  artifactKey: Guid(23fccfe6d1802324892c076b41ec6cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_7 1.asset using Guid(23fccfe6d1802324892c076b41ec6cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47825eada74c20f4531433839105ea26') in 0.028307 seconds 
+  Import took 0.032118 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000345 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_7.asset
-  artifactKey: Guid(0d04bbbedf6075e448fac7952b45e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_7.asset using Guid(0d04bbbedf6075e448fac7952b45e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3efec7f42094ecd30417ae11a97a9c0') in 0.030817 seconds 
-  Import took 0.040422 seconds .
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_16 1.asset
+  artifactKey: Guid(5ff93cd5b4e465742800ea81a9517298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_16 1.asset using Guid(5ff93cd5b4e465742800ea81a9517298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbe033913f2518c873eac0c90d74e04') in 0.029573 seconds 
+  Import took 0.033927 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_16.asset
-  artifactKey: Guid(0b7430d1e9ed2c746b19ce5f94c7461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_16.asset using Guid(0b7430d1e9ed2c746b19ce5f94c7461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30627081bb5799b5d6c1ca6066d6cb42') in 0.031371 seconds 
-  Import took 0.037536 seconds .
+  Time since last request: 0.000349 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_22 1.asset
+  artifactKey: Guid(93de680a1a9d00a48aff604b790641ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_22 1.asset using Guid(93de680a1a9d00a48aff604b790641ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d289a263cc1eba7d7a5cc0f99df8d6') in 0.019729 seconds 
+  Import took 0.025833 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000812 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_17.asset
-  artifactKey: Guid(470e6c7607fcd7444bb7654448305f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_17.asset using Guid(470e6c7607fcd7444bb7654448305f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e015d0c8c95561d153b32e09e5eeae') in 0.036993 seconds 
-  Import took 0.042738 seconds .
+  Time since last request: 0.000338 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_11 1.asset
+  artifactKey: Guid(92ab2ac108cbe2b4c94f21c292125799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_11 1.asset using Guid(92ab2ac108cbe2b4c94f21c292125799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c85fd18d112ae575ab6ac857cd14af') in 0.026451 seconds 
+  Import took 0.031509 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_3.asset
-  artifactKey: Guid(99c8dfcdf4f1ab147b902e8c1f689e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_3.asset using Guid(99c8dfcdf4f1ab147b902e8c1f689e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b66f594fc057cd1177f380a0c31fc64') in 0.018016 seconds 
-  Import took 0.021722 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_13 1.asset
+  artifactKey: Guid(c56ea1b5e0a2ff34dbd4b85cb2e81da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_13 1.asset using Guid(c56ea1b5e0a2ff34dbd4b85cb2e81da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668ad663ac76c97324cb202f8a258184') in 0.029344 seconds 
+  Import took 0.033855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_2.asset
-  artifactKey: Guid(c9a392a97e1eda14283275fec02ab8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_2.asset using Guid(c9a392a97e1eda14283275fec02ab8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdacbbfebc8612ec03c5cb082ab96fd8') in 0.027650 seconds 
-  Import took 0.031836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_8.asset
-  artifactKey: Guid(d84ee611e063c9e43a0d77c8238e3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_8.asset using Guid(d84ee611e063c9e43a0d77c8238e3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd99ed232a4d691929ff7b8202b2272') in 0.027923 seconds 
-  Import took 0.032819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_22.asset
-  artifactKey: Guid(39812a79e21207b4bae725d8203b04c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_22.asset using Guid(39812a79e21207b4bae725d8203b04c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fabcbed2b6efe1379dabe3e1461836') in 0.019763 seconds 
-  Import took 0.023416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_6.asset
-  artifactKey: Guid(e1f159a497594cb41b85fd7e45fb7acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_6.asset using Guid(e1f159a497594cb41b85fd7e45fb7acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900f0115a9f2ff6810763494faa2b04f') in 0.026346 seconds 
-  Import took 0.030611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000655 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_9.asset
-  artifactKey: Guid(6e9fa3bd6d30ab641bfbb0cb2f7dfc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_9.asset using Guid(6e9fa3bd6d30ab641bfbb0cb2f7dfc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e861e60b655c2622753aeca74295d74') in 0.023453 seconds 
-  Import took 0.028717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_21.asset
-  artifactKey: Guid(fba9180d6c8cc0f48a4477c8e113f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_21.asset using Guid(fba9180d6c8cc0f48a4477c8e113f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfbb15acee94889d63f50f0a57083e3') in 0.021313 seconds 
-  Import took 0.024876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_4.asset
-  artifactKey: Guid(aa1aa0b9937e2a345a92145a9b6a5707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_4.asset using Guid(aa1aa0b9937e2a345a92145a9b6a5707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685e7f484af1e9db1e7da6654ca0aa95') in 0.020887 seconds 
-  Import took 0.026305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_12.asset
-  artifactKey: Guid(324eca019049a434e90bce7439aadddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_12.asset using Guid(324eca019049a434e90bce7439aadddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ec74051fc8be61ba75cf5a9c4b407a') in 0.019024 seconds 
-  Import took 0.023979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_13.asset
-  artifactKey: Guid(20451723a904ad54c8e90631edfcdcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_13.asset using Guid(20451723a904ad54c8e90631edfcdcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4f5b2438251aa40d19217126e080e') in 0.020622 seconds 
-  Import took 0.024321 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_12 1.asset
+  artifactKey: Guid(3076d775876156246a9224d9c801634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_12 1.asset using Guid(3076d775876156246a9224d9c801634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a887ef7aab085e88c45fb54c37e8098') in 0.030648 seconds 
+  Import took 0.034437 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000302 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_10.asset
-  artifactKey: Guid(474a71cb5a0b5b64fb3403c01b40ea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_10.asset using Guid(474a71cb5a0b5b64fb3403c01b40ea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a1c310c05b2874f5b0b7ebe5f4f72d') in 0.018909 seconds 
-  Import took 0.023223 seconds .
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_2 1.asset
+  artifactKey: Guid(cc1c862cc2a367242bdafe4c57c0d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_2 1.asset using Guid(cc1c862cc2a367242bdafe4c57c0d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c5fe18912e8199e3de0f8088abe980') in 0.035864 seconds 
+  Import took 0.039794 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_5.asset
-  artifactKey: Guid(e067f0c2a2f0f724ca04020fbf0e423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_5.asset using Guid(e067f0c2a2f0f724ca04020fbf0e423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89cc52561340857034326f87c9335b3') in 0.020053 seconds 
-  Import took 0.023804 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_18 1.asset
+  artifactKey: Guid(6c28957cea25af242bc5dffc6adeffc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_18 1.asset using Guid(6c28957cea25af242bc5dffc6adeffc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081059e536d5022e6a742134a7e88611') in 0.033389 seconds 
+  Import took 0.037595 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_11.asset
-  artifactKey: Guid(ad59cbc172e628b4c887f4d876c54bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_11.asset using Guid(ad59cbc172e628b4c887f4d876c54bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28d90e0a8f3a96db33fc1c5678b1411') in 0.017802 seconds 
-  Import took 0.024495 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_4 1.asset
+  artifactKey: Guid(6b748dd525cd259489af4bd5e192d360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_4 1.asset using Guid(6b748dd525cd259489af4bd5e192d360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5fd660bb8c233c83aa37b754c342d6') in 0.032378 seconds 
+  Import took 0.036784 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_19.asset
-  artifactKey: Guid(e8a9b91532b97cd4e9aac8b2839531a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_19.asset using Guid(e8a9b91532b97cd4e9aac8b2839531a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c176fa4db199859643f7e3a4f99e99e9') in 0.021037 seconds 
-  Import took 0.024343 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_23 1.asset
+  artifactKey: Guid(dc8120bf6710a8c448e1754ad8e7b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_23 1.asset using Guid(dc8120bf6710a8c448e1754ad8e7b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0f03f22d5d9d017bd1dd64c141a734') in 0.026834 seconds 
+  Import took 0.031143 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_18.asset
-  artifactKey: Guid(7da51e761a249644ebf892721babbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_18.asset using Guid(7da51e761a249644ebf892721babbfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5872832ef9ad214fad6b1582f48af59b') in 0.022614 seconds 
-  Import took 0.026980 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_17 1.asset
+  artifactKey: Guid(fe4ec6f987d3fc84084eb5395c00d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_17 1.asset using Guid(fe4ec6f987d3fc84084eb5395c00d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78742093484461365a40abc84480ec53') in 0.025636 seconds 
+  Import took 0.031347 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_23.asset
-  artifactKey: Guid(a7826c514d542894ea915999f9f559e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_23.asset using Guid(a7826c514d542894ea915999f9f559e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc88583dba1af6df3648047afb530dc') in 0.021939 seconds 
-  Import took 0.025905 seconds .
+  Time since last request: 0.000677 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_21 1.asset
+  artifactKey: Guid(4ee9054ac22004f44af34488cecc7087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_21 1.asset using Guid(4ee9054ac22004f44af34488cecc7087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b07942c042f0133da0d00986f3c90cf') in 0.023434 seconds 
+  Import took 0.029702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_1.asset
-  artifactKey: Guid(460260539522ab547af7d2fdc14de07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_1.asset using Guid(460260539522ab547af7d2fdc14de07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2e712301fc7bd1478c56f1e32ea34d') in 0.020750 seconds 
-  Import took 0.026360 seconds .
+  Time since last request: 0.000347 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_3 1.asset
+  artifactKey: Guid(97397639153de6840825c5dbc293abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_3 1.asset using Guid(97397639153de6840825c5dbc293abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e79e3479a9d3b81ee01f484f45dab1') in 0.021170 seconds 
+  Import took 0.026788 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_15.asset
-  artifactKey: Guid(a294d0c7dd5dd3145b83469850004272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_15.asset using Guid(a294d0c7dd5dd3145b83469850004272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9934cf974a13c87404336ea1356051f') in 0.019254 seconds 
-  Import took 0.022983 seconds .
+  Time since last request: 0.000392 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_6 1.asset
+  artifactKey: Guid(450d3fcae3b54c1448606f8e67e3d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_6 1.asset using Guid(450d3fcae3b54c1448606f8e67e3d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb33652566bdd2570aa8265957a40df0') in 0.022409 seconds 
+  Import took 0.027903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_20.asset
-  artifactKey: Guid(e2907e3fc56808e488c0297094d4fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_20.asset using Guid(e2907e3fc56808e488c0297094d4fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e087605b4b8ec6ffedba033ab911810') in 0.018706 seconds 
-  Import took 0.023144 seconds .
+  Time since last request: 0.000228 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_8 1.asset
+  artifactKey: Guid(45d162d116e4a9f46b7420d869555125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_8 1.asset using Guid(45d162d116e4a9f46b7420d869555125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad035008886a468a541bcf78bc73b47') in 0.025172 seconds 
+  Import took 0.029943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.510135 seconds.
-  path: Assets/2Dpackage/scripts
-  artifactKey: Guid(61dc2dc6ff9d96241b57be3122ac947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/scripts using Guid(61dc2dc6ff9d96241b57be3122ac947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaadc3ad2dbeab4732b811edc56dbda6') in 0.008876 seconds 
-  Import took 0.013184 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_1 1.asset
+  artifactKey: Guid(9bd135c48e795c540b7e2a868bdc9927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_1 1.asset using Guid(9bd135c48e795c540b7e2a868bdc9927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0585a073dd4a64f99cc1f4c883edc92d') in 0.023147 seconds 
+  Import took 0.030266 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.035780 seconds.
-  path: Assets/2Dpackage/scripts/NewBehaviourScript.cs
-  artifactKey: Guid(85e3214e266f4744ebe88d1026c21ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/scripts/NewBehaviourScript.cs using Guid(85e3214e266f4744ebe88d1026c21ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483065ddbf23065eb57cd0006977aab1') in 0.017312 seconds 
-  Import took 0.020911 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_5 1.asset
+  artifactKey: Guid(1dbaab100c224d94491fcf44ba933e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_5 1.asset using Guid(1dbaab100c224d94491fcf44ba933e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a331133f6d53254bff2011464bd8d7b') in 0.021474 seconds 
+  Import took 0.026509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_10 1.asset
+  artifactKey: Guid(125730930ecc6654c98d8d49542f8961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_10 1.asset using Guid(125730930ecc6654c98d8d49542f8961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abedf0a7973184877b421caec69a7443') in 0.024311 seconds 
+  Import took 0.029154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_19 1.asset
+  artifactKey: Guid(2854d0df283aa144cbb09ff2bd1a2b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_19 1.asset using Guid(2854d0df283aa144cbb09ff2bd1a2b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee44e6482f57a420a6822c8f2ae9dba') in 0.024556 seconds 
+  Import took 0.029645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_14 1.asset
+  artifactKey: Guid(212797426d765f943a229824e5f85897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_14 1.asset using Guid(212797426d765f943a229824e5f85897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d235cb211bec25e18a6d6c75f9b5bf') in 0.027070 seconds 
+  Import took 0.032555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_20 1.asset
+  artifactKey: Guid(ca693bf39c91cd94098ee831992f6cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_20 1.asset using Guid(ca693bf39c91cd94098ee831992f6cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aac1a3a322a9ce5e0a78a337b958f2') in 0.024289 seconds 
+  Import took 0.028365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_15 1.asset
+  artifactKey: Guid(340c9b583f22fd64a80d4f2857ec1ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_15 1.asset using Guid(340c9b583f22fd64a80d4f2857ec1ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b86e95aa72819e5b18baf1aaf6eef0') in 0.021917 seconds 
+  Import took 0.028670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet_9 1.asset
+  artifactKey: Guid(9099922ea98fb7747addeecfcf6fbac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet_9 1.asset using Guid(9099922ea98fb7747addeecfcf6fbac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5c1ceb64b1a71f7a76a3985152789c') in 0.028735 seconds 
+  Import took 0.033184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.744686 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips/Player/RubyIdleRight.anim
+  artifactKey: Guid(03a8dc2afbae8c14e8ddd760c0bb9e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips/Player/RubyIdleRight.anim using Guid(03a8dc2afbae8c14e8ddd760c0bb9e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b21ce8e8e37898eba71abd18d0b203') in 0.010258 seconds 
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.702139 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips/Player/Tilemap.controller
+  artifactKey: Guid(5d835ddf92ba53e4da2352ac0b23ae3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips/Player/Tilemap.controller using Guid(5d835ddf92ba53e4da2352ac0b23ae3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8160e9563f52a220f4158e5b82f69ca7') in 0.020778 seconds 
+  Import took 0.024960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.680820 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/Materials/House.mat
+  artifactKey: Guid(8f6574023028c1647a18593371c08c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/Materials/House.mat using Guid(8f6574023028c1647a18593371c08c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2a0b65764f8cc471c9f145d7e32401') in 0.083482 seconds 
+  Import took 0.088171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.734411 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips/Characters/RubySheet.png
+  artifactKey: Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips/Characters/RubySheet.png using Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89548d61c13946d5fabab528e79c9f9b') in 0.083545 seconds 
+  Import took 0.087622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.939720 seconds.
+  path: Assets/2Dpackage/Art/Animations/AnimationClips/Characters/RubySheet.png
+  artifactKey: Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Animations/AnimationClips/Characters/RubySheet.png using Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a22a236e2ca5cbe8cb685e21464be4') in 0.147739 seconds 
+  Import took 0.153685 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002979 seconds.
+Registered in 0.004856 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
+- Completed reload, in  0.994 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1013ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.6 MB.
-System memory in use after: 95.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 7.392700 ms (FindLiveObjects: 1.089000 ms CreateObjectMapping: 0.597900 ms MarkObjects: 5.599700 ms  DeleteObjects: 0.103200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 59.690181 seconds.
-  path: Assets/2Dpackage/scripts/RubyMove.cs
-  artifactKey: Guid(85e3214e266f4744ebe88d1026c21ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2Dpackage/scripts/RubyMove.cs using Guid(85e3214e266f4744ebe88d1026c21ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546c75f26b5ec446c7d2cb99063f10be') in 0.018988 seconds 
-  Import took 0.023493 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004057 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
-Domain Reload Profiling:
-	ReloadAssembly (931ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (758ms)
-			LoadAssemblies (90ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.6 MB.
-System memory in use after: 95.7 MB.
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 2.816500 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.064600 ms MarkObjects: 2.571900 ms  DeleteObjects: 0.014500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 3.505200 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.067500 ms MarkObjects: 3.216800 ms  DeleteObjects: 0.019800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -669,3 +452,459 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107.738369 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/Characters/JambiSheet.png
+  artifactKey: Guid(255841382d607e24a8317d9ab167f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/Characters/JambiSheet.png using Guid(255841382d607e24a8317d9ab167f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95505672e75f008b91af0d8b3664787b') in 0.065563 seconds 
+  Import took 0.069571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/Characters/MrClockworkSheet.png
+  artifactKey: Guid(651c4abeb0812e74685da0e5a31c8dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/Characters/MrClockworkSheet.png using Guid(651c4abeb0812e74685da0e5a31c8dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b970030932062731483633966f3fa447') in 0.115318 seconds 
+  Import took 0.119522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.580262 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab
+  artifactKey: Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab using Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f821d0fb44f09502783a6bcad3e53f29') in 0.099757 seconds 
+  Import took 0.105748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003034 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab
+  artifactKey: Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab using Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f821d0fb44f09502783a6bcad3e53f29') in 0.054892 seconds 
+  Import took 0.060547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.419268 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png
+  artifactKey: Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png using Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dd77349f178fb3b88a3a9cd0464eca') in 0.057527 seconds 
+  Import took 0.067150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b803f488ad8938cf0bd71b5f361560') in 0.052276 seconds 
+  Import took 0.063184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001149 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e250ae8d77806e17e6fdc6d4db500d') in 0.045914 seconds 
+  Import took 0.052063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e33512db00fbf28b852e411d385f560') in 0.037237 seconds 
+  Import took 0.044399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840602568adcc45b34a33f4daa9b8e88') in 0.030928 seconds 
+  Import took 0.037521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4703680622ab351e26f5a0c14ec1dcc2') in 0.029056 seconds 
+  Import took 0.036189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005653 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4703680622ab351e26f5a0c14ec1dcc2') in 0.035565 seconds 
+  Import took 0.041090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.322435 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png
+  artifactKey: Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png using Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baad3fce97dc7c6d5a7fc8a2a854b85') in 0.023022 seconds 
+  Import took 0.028133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008977 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png
+  artifactKey: Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png using Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baad3fce97dc7c6d5a7fc8a2a854b85') in 0.017817 seconds 
+  Import took 0.021553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.270461 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png
+  artifactKey: Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png using Guid(2ff4c9799e22f1b4c95766cc11f47530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d84ecce8050ad9706f0777e1000c5b') in 0.059181 seconds 
+  Import took 0.063371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.577459 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f99e5e8f67638d1e2ec8abc4512e30') in 0.022426 seconds 
+  Import took 0.027792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005720 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f99e5e8f67638d1e2ec8abc4512e30') in 0.016215 seconds 
+  Import took 0.020191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.506834 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+  artifactKey: Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png using Guid(2e6ecdf01ba70e3489b17b3f6525fec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783185666b7cda8cf51f8a293a66d407') in 0.056927 seconds 
+  Import took 0.061107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.093180 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d498bf61eddcb83cf5f5bf8b59be0f0') in 0.017139 seconds 
+  Import took 0.022059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008079 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d498bf61eddcb83cf5f5bf8b59be0f0') in 0.016568 seconds 
+  Import took 0.020242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.012006 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+  artifactKey: Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png using Guid(df0b6f9e93b65bc4792e6cf7849c5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b0b2347d606de20199f2b0c9ee84e') in 0.063056 seconds 
+  Import took 0.067385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.351950 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a063f6a65e54d9ff557aff07f741d46') in 0.017898 seconds 
+  Import took 0.022334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006340 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a063f6a65e54d9ff557aff07f741d46') in 0.019526 seconds 
+  Import took 0.023070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.489695 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+  artifactKey: Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png using Guid(ae39c96545143eb41b1618200a550c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7014a408fc4be1784734b74fdd9acde') in 0.060082 seconds 
+  Import took 0.064487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.339256 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57baee0a78fd1a9a1434732c63037b80') in 0.019448 seconds 
+  Import took 0.024269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009802 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57baee0a78fd1a9a1434732c63037b80') in 0.018084 seconds 
+  Import took 0.021855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.036411 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+  artifactKey: Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterRoundCorners.png using Guid(957383e82ad8601499ca4cac1dd1214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad1f915c8cac127dd36149233d46393') in 0.061223 seconds 
+  Import took 0.065771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.272744 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bdf800aab5e3e9b4340cfd8a9bd8d6') in 0.021422 seconds 
+  Import took 0.025827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009504 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bdf800aab5e3e9b4340cfd8a9bd8d6') in 0.016527 seconds 
+  Import took 0.020565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.130649 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+  artifactKey: Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/FloorWaterSquareCorners.png using Guid(56dfe645f43c419458abb426118088e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fef9bded781634de19a524f3f1ceb4b') in 0.058018 seconds 
+  Import took 0.062208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.461605 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png
+  artifactKey: Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubySheet.png using Guid(c1dbff5bcb29cdd4bbb8de3a29f2328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551fd38a060bc8fd8024bee56b9e3b1e') in 0.107478 seconds 
+  Import took 0.111177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.783844 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab
+  artifactKey: Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Environmnent/場景素材/New Palette.prefab using Guid(13b8073d1bbe97240ad029567cb031c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c7d263ce5855ef1fd869b288f964b0') in 0.053541 seconds 
+  Import took 0.059123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.102441 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyHitdown.asset
+  artifactKey: Guid(15b7e5b404c81ce448c91ac14a509457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyHitdown.asset using Guid(15b7e5b404c81ce448c91ac14a509457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710dca35de1e3911b0e442e2567ece51') in 0.035520 seconds 
+  Import took 0.042744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp1.asset
+  artifactKey: Guid(279993977cd948c40b848b70c4b8c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp1.asset using Guid(279993977cd948c40b848b70c4b8c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd9a829f227de7eeb9b153e9c58d2dc') in 0.024465 seconds 
+  Import took 0.030688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyIdleDown1.asset
+  artifactKey: Guid(e9cf0f771a92b3c4aa43460d6edad6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyIdleDown1.asset using Guid(e9cf0f771a92b3c4aa43460d6edad6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedd5ed2e185b97e06406dc3973b59ca') in 0.019378 seconds 
+  Import took 0.023826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide1.asset
+  artifactKey: Guid(d16cb6ac0056b894a8bf5faeab7f5726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide1.asset using Guid(d16cb6ac0056b894a8bf5faeab7f5726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f1571d394fe35ef4984dc3f3960b2e') in 0.020920 seconds 
+  Import took 0.025176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown3.asset
+  artifactKey: Guid(86de753710c979248a170307c6a3ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown3.asset using Guid(86de753710c979248a170307c6a3ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b7ab775b0c691fb7928939afb81982') in 0.023580 seconds 
+  Import took 0.027452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp3.asset
+  artifactKey: Guid(3641b761b59330049bfcb562c879a102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp3.asset using Guid(3641b761b59330049bfcb562c879a102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a21ff26dd98912074c3b47fa485a2c') in 0.023480 seconds 
+  Import took 0.027825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide2.asset
+  artifactKey: Guid(3a61b6586fa7f9d47923b890d5a37f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide2.asset using Guid(3a61b6586fa7f9d47923b890d5a37f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8027ecdd9dafadcc8602cfa5dda3c463') in 0.022529 seconds 
+  Import took 0.027593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown4.asset
+  artifactKey: Guid(27a1222e4fedf73438c75676b4c0bebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown4.asset using Guid(27a1222e4fedf73438c75676b4c0bebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372245c4b7a055eb5c98749533fa1065') in 0.024284 seconds 
+  Import took 0.029420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyHitSides.asset
+  artifactKey: Guid(c4334b613bd884b47a16d83fbb91ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyHitSides.asset using Guid(c4334b613bd884b47a16d83fbb91ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74613b891e1941f043cd21ffa41de5ac') in 0.024124 seconds 
+  Import took 0.028179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp4.asset
+  artifactKey: Guid(19e817fb9e8e5dd4fa644e083df39263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp4.asset using Guid(19e817fb9e8e5dd4fa644e083df39263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9a8d0ce6c62bc7b840b93c798ced69') in 0.022067 seconds 
+  Import took 0.026700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyHitUp.asset
+  artifactKey: Guid(e58656e45dbb2ec49874afaf1e55fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyHitUp.asset using Guid(e58656e45dbb2ec49874afaf1e55fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e265ca153e223b7a4b17155b69694d') in 0.027589 seconds 
+  Import took 0.032359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyIdleUp1.asset
+  artifactKey: Guid(0b39a175d0512104cbecee85997b3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyIdleUp1.asset using Guid(0b39a175d0512104cbecee85997b3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa847019626d29d7203b41df657ab1e8') in 0.023498 seconds 
+  Import took 0.029097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyIdleSide1.asset
+  artifactKey: Guid(48601fe0c98e1ec4db88752b06b4d9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyIdleSide1.asset using Guid(48601fe0c98e1ec4db88752b06b4d9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047f7508ff0d7bf841c2fd62d6ca1410') in 0.024052 seconds 
+  Import took 0.028332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown2.asset
+  artifactKey: Guid(d2b1552d9d26c75488735d1a303f4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown2.asset using Guid(d2b1552d9d26c75488735d1a303f4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfee2a02829f0f9c13f682c5a9048a83') in 0.021276 seconds 
+  Import took 0.026787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyLauchSides.asset
+  artifactKey: Guid(8b185b399e6e2264f86943f54d7895a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyLauchSides.asset using Guid(8b185b399e6e2264f86943f54d7895a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beacf0cca337bedad28e933cc4cf4fe2') in 0.025063 seconds 
+  Import took 0.030531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyLaunchDown.asset
+  artifactKey: Guid(3376b7d70c5336b44bea86e4b3bd2511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyLaunchDown.asset using Guid(3376b7d70c5336b44bea86e4b3bd2511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea5699a8ce08938277f9496549f35e') in 0.021734 seconds 
+  Import took 0.026857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyIdleSides2.asset
+  artifactKey: Guid(62e6539b6302d1a4585e5bb393eb95e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyIdleSides2.asset using Guid(62e6539b6302d1a4585e5bb393eb95e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527e10c69ec5d3ca3451104991a29b02') in 0.022327 seconds 
+  Import took 0.026591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyIdleDown2.asset
+  artifactKey: Guid(c7daa0c4a618cbb48be2645df2ed90b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyIdleDown2.asset using Guid(c7daa0c4a618cbb48be2645df2ed90b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd3549fc29f61383ba0c412a7877f4') in 0.023079 seconds 
+  Import took 0.026933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide4.asset
+  artifactKey: Guid(f4735832e83ede048896debbe527b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide4.asset using Guid(f4735832e83ede048896debbe527b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e2af125cf57c12dacc5dff31628b4b') in 0.022800 seconds 
+  Import took 0.027332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide3.asset
+  artifactKey: Guid(e11a639e09bf4114e8680876cd6a53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunSide3.asset using Guid(e11a639e09bf4114e8680876cd6a53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a5d2295010518d75bb2282f9d212b3') in 0.024760 seconds 
+  Import took 0.028834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyIdleUp2.asset
+  artifactKey: Guid(af4f665d847b28f4f99ba53329f56cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyIdleUp2.asset using Guid(af4f665d847b28f4f99ba53329f56cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47158e6427b44fbb99a1a62ff10647e4') in 0.025300 seconds 
+  Import took 0.030016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyLaunchUp.asset
+  artifactKey: Guid(c9bc7a76042083642882e17121529f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyLaunchUp.asset using Guid(c9bc7a76042083642882e17121529f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c365b18637e8aa81d7748fce81b96a') in 0.020772 seconds 
+  Import took 0.026387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown1.asset
+  artifactKey: Guid(8b6307bb64009624c90043e097853f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown1.asset using Guid(8b6307bb64009624c90043e097853f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5ba3836e69bf8c817840dee5e1630b') in 0.022281 seconds 
+  Import took 0.027509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp2.asset
+  artifactKey: Guid(e920ce7525360e24292accb36022f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp2.asset using Guid(e920ce7525360e24292accb36022f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e889d17e436f6f181f543992b5140eb') in 0.027929 seconds 
+  Import took 0.032484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown1.asset
+  artifactKey: Guid(8b6307bb64009624c90043e097853f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunDown1.asset using Guid(8b6307bb64009624c90043e097853f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5ba3836e69bf8c817840dee5e1630b') in 0.019075 seconds 
+  Import took 0.024669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp2.asset
+  artifactKey: Guid(e920ce7525360e24292accb36022f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2Dpackage/Art/Sprites/Characters/RubyRunUp2.asset using Guid(e920ce7525360e24292accb36022f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e889d17e436f6f181f543992b5140eb') in 0.019829 seconds 
+  Import took 0.024228 seconds .
+

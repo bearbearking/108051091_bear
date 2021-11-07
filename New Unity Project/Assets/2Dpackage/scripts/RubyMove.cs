@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class RubyMove : MonoBehaviour
 {
+
+    public float moveSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,10 +16,12 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            Vector2 rubyMove = new Vector2();
-            rubyMove = transform.position;
-            rubyMove.x = rubyMove.x + 0.01f;
-            transform.position = rubyMove;
-
-        }
+        Vector2 rubyPosition = transform.position;
+        rubyPosition.x = rubyPosition.x + moveSpeed * Input.GetAxis("Horizontal")  ;
+        //print(Input.GetAxis("Horizontal"));
+        transform.position = rubyPosition;
+        rubyPosition.y = rubyPosition.y + moveSpeed * Input.GetAxis("Horizontal");
+        //print(Input.GetAxis("Horizontal"));
+        transform.position = rubyPosition;
+    }
 }

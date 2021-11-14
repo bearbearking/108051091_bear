@@ -20,7 +20,7 @@ public class RubyMove : MonoBehaviour
         rubyPosition.x = rubyPosition.x + moveSpeed * Input.GetAxis("Horizontal")  ;
         //print(Input.GetAxis("Horizontal"));
         transform.position = rubyPosition;
-        rubyPosition.y = rubyPosition.y + moveSpeed * Input.GetAxis("Horizontal");
+        rubyPosition.y = rubyPosition.y + moveSpeed * Input.GetAxis("Vertical");
         //print(Input.GetAxis("Horizontal"));
         transform.position = rubyPosition;
     }

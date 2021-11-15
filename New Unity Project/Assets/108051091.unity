@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 271231324}
   - component: {fileID: 271231325}
   - component: {fileID: 271231326}
+  - component: {fileID: 271231327}
   m_Layer: 0
   m_Name: RubyRunDown1
   m_TagString: Untagged
@@ -542,6 +543,25 @@ CapsuleCollider2D:
   m_Offset: {x: -0.03198266, y: 0.5952243}
   m_Size: {x: 0.7049408, y: 1.191074}
   m_Direction: 0
+--- !u!95 &271231327
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271231322}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fbf9d8b6b19ad4242a62adf22c834fb4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &316879920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,7 +2003,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927713550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.657, y: -2.336, z: 0}
+  m_LocalPosition: {x: 4.599, y: -2.433, z: 0}
   m_LocalScale: {x: 1.3442, y: 0.9812, z: 1}
   m_Children: []
   m_Father: {fileID: 109098378}

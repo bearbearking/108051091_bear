@@ -645,9 +645,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e3214e266f4744ebe88d1026c21ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rubyAnimator: {fileID: 0}
-  rb: {fileID: 0}
-  Speed: 5
+  rubyAnimator: {fileID: 271231327}
+  rb: {fileID: 271231328}
+  Speed: 3
 --- !u!70 &271231326
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &316879920
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 0}
+  m_BoundingShape2D: {fileID: 563147463}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!114 &384308815
@@ -1270,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563147464}
   - component: {fileID: 563147463}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: confiner
   m_TagString: Untagged
   m_Icon: {fileID: 0}

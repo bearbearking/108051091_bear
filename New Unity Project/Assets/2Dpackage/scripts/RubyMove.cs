@@ -45,7 +45,7 @@ public class RubyMove : MonoBehaviour
         rubyAnimator.SetFloat("Speed", rubyMove.magnitude);
 
 
-        rubyPosition = rubyPosition + Speed * rubyPosition * Time.deltaTime;
+        rubyPosition = rubyPosition + Speed * rubyMove * Time.deltaTime;
         rb.MovePosition(rubyPosition);
     }
 }

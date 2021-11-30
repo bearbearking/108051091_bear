@@ -13,11 +13,20 @@ public class RubyMove : MonoBehaviour
 
     public float Speed;
 
+    [Header("最高血量")]
+    public int maxHealth = 5;
+
+    [Header("當前血量"), Range(0, 5)]
+    public int currentHealth;
+
     // Start is called before the first frame update
     void Start()
     {
         rubyAnimator = GetComponent<Animator>(); 
         rb = GetComponent<Rigidbody2D>();
+
+        currentHealth = maxHealth;
+        print("Ruby當前血量為:" + currentHealth);
     }
 
     // Update is called once per frame
@@ -27,8 +36,7 @@ public class RubyMove : MonoBehaviour
 
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        print("Horizontal is: " + horizontal);
-        print("Vertical is: " + vertical);
+        
 
         rubyMove = new Vector2(horizontal, vertical);
 
@@ -47,5 +55,16 @@ public class RubyMove : MonoBehaviour
 
         rubyPosition = rubyPosition + Speed * rubyMove * Time.deltaTime;
         rb.MovePosition(rubyPosition);
+
+        if (currentHealth == 0)
+        {
+            Application.LoadLevel("108051091");
+        }
+    }
+
+    public void ChangeHealth(int amout)
+    {
+        currentHealth = currentHealth + amout;
+        print("Ruby 當前血量為:" + currentHealth);
     }
 }

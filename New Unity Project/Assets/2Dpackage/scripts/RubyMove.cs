@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class RubyMove : MonoBehaviour
 {
     private Vector2 lookDirection;
@@ -19,7 +18,11 @@ public class RubyMove : MonoBehaviour
     [Header("當前血量"), Range(0, 5)]
     public int currentHealth;
 
+    public GameObject projectilePrefeb;
+    
+
     // Start is called before the first frame update
+    
     void Start()
     {
         rubyAnimator = GetComponent<Animator>(); 
@@ -60,11 +63,26 @@ public class RubyMove : MonoBehaviour
         {
             Application.LoadLevel("108051091");
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Launch();
+        }
     }
-
+    
     public void ChangeHealth(int amout)
     {
         currentHealth = currentHealth + amout;
         print("Ruby 當前血量為:" + currentHealth);
+    }
+
+    private void Launch()
+    {
+        GameObject projectileOnject = Instantiate(projectilePrefeb,
+            rb.position, Quaternion.identity);
+
+        //Bullet bull = projectileOnject.GetComponent<Bullet>();
+        //bullet.Launch(lookDirection, 300);
+
+        rubyAnimator.SetTrigger("Launch");
     }
 }

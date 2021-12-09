@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemtGo : MonoBehaviour
+public class EnemyGo : MonoBehaviour
 {
     public int speed = 5;
     private Rigidbody2D rb;

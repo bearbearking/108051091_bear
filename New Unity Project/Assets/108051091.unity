@@ -315,7 +315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100472231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4078948, y: -0.7700366, z: -45.9793}
+  m_LocalPosition: {x: -1.19, y: -0.84, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 271231323}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -959,7 +959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384308813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1671302, y: -0.7712339, z: -45.9793}
+  m_LocalPosition: {x: -1.19, y: -0.84, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 460909389}
@@ -2247,6 +2247,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1365727539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365727534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f07369d6dd0e84cb52e9f41446ccac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletDis: 0
+  hitEffect: {fileID: 0}
 --- !u!1 &1395315580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2783,6 +2797,8 @@ GameObject:
   - component: {fileID: 1646039705}
   - component: {fileID: 1646039704}
   - component: {fileID: 1646039707}
+  - component: {fileID: 1646039708}
+  - component: {fileID: 1646039709}
   m_Layer: 0
   m_Name: MrClockworkIdleDown
   m_TagString: Untagged
@@ -2890,6 +2906,46 @@ CapsuleCollider2D:
   m_Offset: {x: -0.05060923, y: 0.8336884}
   m_Size: {x: 0.6695106, y: 1.6943462}
   m_Direction: 0
+--- !u!114 &1646039708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646039703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e7ecee9df91224d86641bfa6ab7838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  isVertical: 0
+  direction: 1
+  walkTime: 3
+  enemyAnimator: {fileID: 0}
+  broken: 1
+  smokeEffect: {fileID: 0}
+--- !u!50 &1646039709
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646039703}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1706476210
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,6 +3109,8 @@ GameObject:
   - component: {fileID: 1927713562}
   - component: {fileID: 1927713564}
   - component: {fileID: 1927713565}
+  - component: {fileID: 1927713567}
+  - component: {fileID: 1927713566}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -6547,6 +6605,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0f07369d6dd0e84cb52e9f41446ccac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletDis: 0
+  hitEffect: {fileID: 0}
+--- !u!114 &1927713566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927713550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f07369d6dd0e84cb52e9f41446ccac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletDis: 0
+  hitEffect: {fileID: 0}
+--- !u!114 &1927713567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927713550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f07369d6dd0e84cb52e9f41446ccac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletDis: 0
+  hitEffect: {fileID: 0}
 --- !u!1 &2055417602
 GameObject:
   m_ObjectHideFlags: 0
@@ -11364,6 +11452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0f07369d6dd0e84cb52e9f41446ccac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletDis: 0
+  hitEffect: {fileID: 0}
 --- !u!1 &2067849298
 GameObject:
   m_ObjectHideFlags: 0

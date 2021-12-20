@@ -13,7 +13,6 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        bulletDis = transform.position.magnitude;
     }
 
     public void Launch(Vector2 direction, float force)
@@ -35,9 +34,9 @@ public class Bullet : MonoBehaviour
 
         Destroy(gameObject);
     }
-    void Start()
+    void Strat()
     {
-        
+
     }
 
     // Update is called once per frame
